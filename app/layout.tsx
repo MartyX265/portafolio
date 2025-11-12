@@ -23,9 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} 
+        antialiased min-h-screen bg-[url('/backgrounds/modernBackground.jpg')] 
+        bg-fixed`}
       >
         {children}
       </body>
