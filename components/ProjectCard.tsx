@@ -2,24 +2,24 @@ interface Props{
   title: string;
   description: string;
   imageUrl: string;
-  link:string;
+  link?:string;
   children?: React.ReactNode;
 }
 export default function ProjectCard({ title, description, imageUrl, link, children }: Props) {
   return (
     <div className="card bg-[rgba(255,255,255,0.4)] w-fit border border-gray-300">
-      <figure className="p-4">
+      <figure className="p-2 md:p-8">
         <img
           src={imageUrl}
           alt={title}
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{title}</h2>
-        <p>
+        <h2 className="card-title md:text-xl">{title}</h2>
+        <p className="md:text-lg">
           {description}
         </p>
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-start">
           {children}
         </div>
       </div>

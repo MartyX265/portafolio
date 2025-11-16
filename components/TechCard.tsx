@@ -7,7 +7,7 @@ interface Props{
 
 export default function TechCard({ title, imageUrl }: Props) {
   return (
-    <div className="p-4 rounded-lg bg-[rgba(255,255,255,0.5)] hover:scale-105 transition-transform">
+    <div className="p-4">
       <div className="flex flex-col justify-center items-center">
         <div>
           <Image
