@@ -1,9 +1,14 @@
-export default function ContactMe() {
+interface Props{
+  url: string;
+  iconUrl: string;
+}
+
+export default function ContactMe({url, iconUrl}: Props) {
   return (
-    <a href="#">
+    <a href={url} target="_blank" rel="noopener noreferrer">
       <img
-        src={"/commonIcons/linkedin.svg"}
-        alt="LinkedIn"
+        src={iconUrl}
+        alt="Contact Icon"
         className="size-8"
       />
     </a>
