@@ -8,19 +8,19 @@ export default function Drawer() {
         {/* Contenido principal */}
         <Main />
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side bg-[rgba(0,0,0,0.4)]">
         <label
           htmlFor="drawer-menu"
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-base-200 min-h-full w-80 p-4">
+        <ul className="menu bg-[rgba(255,255,255,0.5)] backdrop-blur-sm min-h-full w-80 p-4">
           {/*Selector de temas y opciones de musica*/}
           <li>
-            <a>Sidebar Item 1</a>
+            <a>Language Selectors, coming soon!</a>
           </li>
           <li>
-            <a>Sidebar Item 2</a>
+            <a>Theme Selectors, coming soon!</a>
           </li>
         </ul>
       </div>
