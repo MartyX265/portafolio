@@ -11,8 +11,7 @@ export default function EducationSection() {
           <EducationRow
             schoolName={"Universidad Tecnologica Nacional"}
             degree={"Computer Science"}
-            startYear={"2022"}
-            endYear={"2024"}
+            years="2022 - 2024"
             details={
               "System Design, Data Structures, Algorithms, Object-Oriented Programming, Databases, Software Development Methodologies"
             }
@@ -20,15 +19,13 @@ export default function EducationSection() {
           <EducationRow
             schoolName={"Escuela de Capacitación Newton"}
             degree={"Desarrollador Web Full Stack"}
-            startYear={"2021"}
-            endYear={"2022"}
+            years="2021 - 2022"
             details={"HTML, CSS, JavaScript, REST APIs, Bootstrap, PHP, MySQL"}
           />
           <EducationRow
             schoolName={"edX (MIT)"}
             degree={"Web Development Fundamentals"}
-            startYear={"2021"}
-            endYear={"2021"}
+            years="2021"
             details={
               "Introduction to Web Development, Web Accessibility, HTML Architecture"
             }
