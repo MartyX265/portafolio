@@ -1,34 +1,33 @@
+"use client";
+import { useTranslation } from "react-i18next";
 import GlassMainLayout from "../Common/GlassMainLayout";
 import SectionTitle from "../SectionTitle";
 import EducationRow from "./EducationRow";
 
 export default function EducationSection() {
+  const { t } = useTranslation();
   return (
     <section>
       <GlassMainLayout>
-        <SectionTitle title="Education" />
+        <SectionTitle title={t("education.title")} />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <EducationRow
-            schoolName={"Universidad Tecnologica Nacional"}
-            degree={"Computer Science"}
-            years="2022 - 2024"
-            details={
-              "System Design, Data Structures, Algorithms, Object-Oriented Programming, Databases, Software Development Methodologies"
-            }
+            schoolName={t("education.education1.institution")}
+            degree={t("education.education1.degree")}
+            years={t("education.education1.year")}
+            details={t("education.education1.details")}
           />
           <EducationRow
-            schoolName={"Escuela de Capacitación Newton"}
-            degree={"Desarrollador Web Full Stack"}
-            years="2021 - 2022"
-            details={"HTML, CSS, JavaScript, REST APIs, Bootstrap, PHP, MySQL"}
+            schoolName={t("education.education2.institution")}
+            degree={t("education.education2.degree")}
+            years={t("education.education2.year")}
+            details={t("education.education2.details")}
           />
           <EducationRow
-            schoolName={"edX (MIT)"}
-            degree={"Web Development Fundamentals"}
-            years="2021"
-            details={
-              "Introduction to Web Development, Web Accessibility, HTML Architecture"
-            }
+            schoolName={t("education.education3.institution")}
+            degree={t("education.education3.degree")}
+            years={t("education.education3.year")}
+            details={t("education.education3.details")}
           />
         </div>
       </GlassMainLayout>

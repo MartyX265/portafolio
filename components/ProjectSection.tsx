@@ -1,18 +1,21 @@
+"use client";
+import { useTranslation } from "react-i18next";
 import GlassMainLayout from "./Common/GlassMainLayout";
 import ProjectCard from "./ProjectCard";
 import SectionTitle from "./SectionTitle";
 import TechBadge from "./TechBadge";
 
 export default function ProjectSection() {
+  const { t } = useTranslation();
   return (
     <section>
       <GlassMainLayout>
-        <SectionTitle title="My Projects" />
+        <SectionTitle title={t("projects.title")} />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           <ProjectCard
-            title={"My Website Portafolio"}
+            title={t("projects.project1.name")}
             description={
-              "My personal portfolio website showcasing my projects and skills."
+              t("projects.project1.description")
             }
             imageUrl={"/projectScreenshots/portfolio.jpg"}
             link={"https://myportfolio.com"}
@@ -37,11 +40,15 @@ export default function ProjectSection() {
               iconUrl={"/commonIcons/daisyui.svg"}
               link={"https://daisyui.com/"}
             />
+            <TechBadge
+              iconUrl={"/commonIcons/i18next.svg"}
+              link={"https://www.i18next.com/"}
+            />
           </ProjectCard>
           <ProjectCard
-            title={"Full Shop E-commerce"}
+            title={t("projects.project2.name")}
             description={
-              "An online store for various medic products with user authentication and payment integration."
+              t("projects.project2.description")
             }
             imageUrl={"/projectScreenshots/e-commerce.jpg"}
           >
@@ -71,8 +78,8 @@ export default function ProjectSection() {
             />
           </ProjectCard>
           <ProjectCard
-            title="Calcula Carrito"
-            description="A simple app to calculate your shopping cart total through barcode scanning."
+            title={t("projects.project3.name")}
+            description={t("projects.project3.description")}
             imageUrl="/projectScreenshots/calcula-carrito.jpg"
           >
             <TechBadge
@@ -97,9 +104,9 @@ export default function ProjectSection() {
             />
           </ProjectCard>
           <ProjectCard
-            title={"Landing Page Audifonos Mendoza"}
+            title={t("projects.project4.name")}
             description={
-              "A landing page for promoting hearing aids and related products in Mendoza"
+              t("projects.project4.description")
             }
             imageUrl={"/projectScreenshots/landingAudifonos.jpg"}
           >
@@ -121,8 +128,8 @@ export default function ProjectSection() {
             />
           </ProjectCard>
           <ProjectCard
-            title={"Appointments Manager"}
-            description={"A simple app to manage medical appointments"}
+            title={t("projects.project5.name")}
+            description={t("projects.project5.description")}
             imageUrl={"/projectScreenshots/turnero.jpg"}
           >
             <TechBadge

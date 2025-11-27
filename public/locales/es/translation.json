@@ -1,0 +1,61 @@
+{
+  "drawer":{
+    "selectLanguage": "Selecciona tu idioma"
+  },
+  "navbar": {
+    "title": "Bienvenido a Mi Portafolio"
+  },
+  "heroBanner": {
+    "greeting": "Hola, soy Martin Ribotta",
+    "description": " Soy un desarrollador frontend que aspira a ser un desarrollador full stack."
+  },
+  "aboutMe": {
+    "title": "Sobre Mí",
+    "content": "Soy un desarrollador junior con experiencia en desarrollo web y móvil, con experiencia en startups tanto en codificación como en gestión, ansioso por aprender, crecer y contribuir en proyectos y equipos innovadores",
+    "technologies": "Tecnologías con las que trabajo:"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "project1": {
+      "name": "Mi Portafolio Web",
+      "description": "Mi sitio web personal de portafolio que muestra mis proyectos y habilidades."
+    },
+    "project2": {
+      "name": "Full Shop E-commerce",
+      "description": "Una tienda en línea para varios productos médicos con autenticación de usuarios e integración de pagos."
+    },
+    "project3": {
+      "name": "Calcula Carrito",
+      "description": "Una aplicación simple para calcular el total de tu carrito de compras mediante el escaneo de códigos de barras."
+    },
+    "project4": {
+      "name": "Landing Page Audifonos Mendoza",
+      "description": "Una página para promover la venta de audífonos y productos relacionados para la audición en Mendoza."
+    },
+    "project5": {
+      "name": "Gestor de Citas",
+      "description": "Una aplicación simple para gestionar citas médicas con funcionalidades CRUD."
+    }
+  },
+  "education":{
+    "title": "Educación",
+    "education1":{
+        "institution": "Universidad Tecnologica Nacional",
+        "degree": "Titulo: Tecnico Superior en Programación",
+        "year": "2022 - 2024",
+        "details": "Diseño de Sistemas, Estructuras de Datos, Algoritmos, Programación Orientada a Objetos, Bases de Datos, Metodologías de Desarrollo de Software."
+    },
+    "education2":{
+        "institution": "Escuela de Capacitación Newton",
+        "degree": "Titulo: Desarrollador Web Full Stack",
+        "year": "2021 - 2022",
+        "details": "HTML, CSS, JavaScript, REST APIs, Bootstrap, PHP, MySQL."
+    },
+    "education3":{
+        "institution": "edX (MIT)",
+        "degree": "Titulo: Fundamentos de Desarrollo Web",
+        "year": "2021 - 2021",
+        "details": "Introducción al Desarrollo Web, Accesibilidad Web, Arquitectura HTML"
+    }
+  }
+}

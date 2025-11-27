@@ -1,4 +1,9 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export default function HeroBanner() {
+  const {t}= useTranslation();
   return (
     <div
       className="hero min-h-screen"
@@ -10,9 +15,9 @@ export default function HeroBanner() {
       <div className="hero-overlay"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hi, I'm Martin Ribotta</h1>
+          <h1 className="mb-5 text-5xl font-bold">{t("heroBanner.greeting")}</h1>
           <p className="mb-5 text-2xl">
-            I'm a frontend developer who is aspiring to be a full stack developer.
+            {t("heroBanner.description")}
           </p>
         </div>
       </div>

@@ -22,9 +22,8 @@ export default function EducationRow({
         <span className="font-semibold md:text-lg lg:text-xl">{years}</span>
       </div>
       <div>
-        <p className="text-sm font-semibold">Degree: {degree}</p>
+        <p className="text-sm font-semibold">{degree}</p>
         <div className="text-xs">
-          Relevant Courses:
           <ul className="px-8">
             {details.split(",").map((course, index) => (
               <li key={index} className="list-disc">

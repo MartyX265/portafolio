@@ -1,0 +1,61 @@
+{
+  "drawer":{
+    "selectLanguage": "Select your language"
+  },
+  "navbar": {
+    "title": "Welcome to My Portfolio"
+  },
+  "heroBanner": {
+    "greeting": "Hi, I'm Martin Ribotta",
+    "description": " I'm a frontend developer who is aspiring to be a full stack developer."
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "content": "I'm a junior developer with experience in web and mobile development, with startup experience in both coding and management, eager to learn, to grow and to contribute in innovative projects and teams",
+    "technologies": "Technologies I work with:"
+  },
+  "projects": {
+    "title": "My Projects",
+    "project1": {
+      "name": "My Website Portfolio",
+      "description": "My personal portfolio website showcasing my projects and skills."
+    },
+    "project2": {
+      "name": "Full Shop E-commerce",
+      "description": "An online store for various medic products with user authentication and payment integration."
+    },
+    "project3": {
+      "name": "Calcula Carrito",
+      "description": "A simple app to calculate your shopping cart total through barcode scanning."
+    },
+    "project4": {
+      "name": "Landing Page Audifonos Mendoza",
+      "description": "A landing page for promoting hearing aids and related products in Mendoza"
+    },
+    "project5": {
+      "name": "Appointments Manager",
+      "description": "A simple app to manage medical appointments with CRUD functionalities."
+    }
+  },
+  "education":{
+    "title": "Education",
+    "education1":{
+        "institution": "Universidad Tecnologica Nacional",
+        "degree": "Degree: Bachelor degree of Computer Science",
+        "year": "2022 - 2024",
+        "details": "System Design, Data Structures, Algorithms, Object-Oriented Programming, Databases, Software Development Methodologies."
+    },
+    "education2":{
+        "institution": "Escuela de Capacitación Newton",
+        "degree": "Degree: Full-Stack Web Development",
+        "year": "2021 - 2022",
+        "details": "HTML, CSS, JavaScript, REST APIs, Bootstrap, PHP, MySQL."
+    },
+    "education3":{
+        "institution": "edX (MIT)",
+        "degree": "Degree: Web Development Fundamentals",
+        "year": "2021 - 2021",
+        "details": "Introduction to Web Development, Web Accessibility, HTML Architecture"
+    }
+  }
+}
