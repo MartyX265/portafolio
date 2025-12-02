@@ -1,11 +1,16 @@
 "use client";
+import { useEffect } from "react";
 import LanguageSelectorBtn from "./Common/LanguageSelectorBtn";
 import Main from "./Main";
 import "@/app/utils/i18n";
 import { useTranslation } from "react-i18next";
+import { themeChange } from "theme-change";
 
 export default function Drawer() {
   const { t } = useTranslation();
+
+  useEffect(() => {themeChange(false)}, []);
+
   return (
     <div className="drawer">
       <input id="drawer-menu" type="checkbox" className="drawer-toggle" />
@@ -36,6 +41,16 @@ export default function Drawer() {
               flagSrc={"/commonIcons/flagES.svg"}
               dataLng={"es"}
             />
+          </li>
+          <span className="text-center font-semibold text-lg">
+            {t("drawer.selectTheme")}
+          </span>
+          <li>
+            <select data-choose-theme className="select w-full max-w-xs">
+              <option value="light">{t("drawer.themes.light")}</option>
+              <option value="retro2010">{t("drawer.themes.retro2010")}</option>
+              <option value="dark">{t("drawer.themes.dark")}</option>
+            </select>
           </li>
         </ul>
       </div>

@@ -1,6 +1,12 @@
 {
   "drawer":{
-    "selectLanguage": "Select your language"
+    "selectLanguage": "Select your language",
+    "selectTheme": "Swap the visual theme",
+    "themes": {
+      "light": "Light",
+      "retro2010": "Retro 2010",
+      "dark": "Dark"
+    }
   },
   "navbar": {
     "title": "Welcome to My Portfolio"

@@ -1,6 +1,12 @@
 {
   "drawer":{
-    "selectLanguage": "Selecciona tu idioma"
+    "selectLanguage": "Selecciona tu idioma",
+    "selectTheme": "Selecciona un tema visual",
+    "themes": {
+      "light": "Claro",
+      "retro2010": "Retro 2010",
+      "dark": "Oscuro"
+    }
   },
   "navbar": {
     "title": "Bienvenido a Mi Portafolio"
