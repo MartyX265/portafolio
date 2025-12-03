@@ -1,39 +1,4 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light --default, retro2010, dark;
-}
-
-@plugin "daisyui/theme" {
-  name: "retro2010";
-  default: false;
-  color-scheme: "light";
-  prefersdark: false;
-
-  --primary: "#3AA7E1";
-  --primary-content: "#FFFFFF";
-
-  --secondary: "#BDE4FF";
-  --secondary-content: "#003F7D";
-
-  --accent: "#FFDE37";
-  --accent-content: "#3A3A00";
-  --neutral: "#738EA6";
-  --neutral-content: "#FFFFFF";
-
-  --base-100: "#F5F8FA";
-  --base-200: "#E9EEF2";
-  --base-300: "#D6DEE5";
-  --base-content: "#3A4A55";
-
-  --info: "#3AA7E1";
-  --info-content: "#FFFFFF";
-
-  --success: "#7FCF7C";
-  --success-content: "#0F3D0F";
-
-  --warning: "#FFDE37";
-  --warning-content: "#3A3A00";
-
-  --error: "#E15B5B";
-  --error-content: "#3F0000";
+  themes: light --default, dark;
 }

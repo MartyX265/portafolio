@@ -1,16 +1,12 @@
 interface Props{
   url: string;
-  iconUrl: string;
+  icon:React.ReactNode;
 }
 
-export default function ContactMe({url, iconUrl}: Props) {
+export default function ContactMe({url, icon}: Props) {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <img
-        src={iconUrl}
-        alt="Contact Icon"
-        className="size-8"
-      />
+      {icon}
     </a>
   );
 }

@@ -18,13 +18,13 @@ export default function Drawer() {
         {/* Contenido principal */}
         <Main />
       </div>
-      <div className="drawer-side bg-[rgba(0,0,0,0.4)]">
+      <div className="drawer-side bg-base-200/40 backdrop-blur-sm">
         <label
           htmlFor="drawer-menu"
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-[rgba(255,255,255,0.5)] backdrop-blur-sm min-h-full w-80 p-4 gap-2">
+        <ul className="menu bg-base-300 backdrop-blur-sm min-h-full w-80 p-4 gap-2">
           <span className="text-center font-semibold text-lg">
             {t("drawer.selectLanguage")}
           </span>
@@ -48,7 +48,6 @@ export default function Drawer() {
           <li>
             <select data-choose-theme className="select w-full max-w-xs">
               <option value="light">{t("drawer.themes.light")}</option>
-              <option value="retro2010">{t("drawer.themes.retro2010")}</option>
               <option value="dark">{t("drawer.themes.dark")}</option>
             </select>
           </li>

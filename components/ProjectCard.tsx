@@ -7,7 +7,7 @@ interface Props{
 }
 export default function ProjectCard({ title, description, imageUrl, link, children }: Props) {
   return (
-    <div className="card bg-[rgba(255,255,255,0.4)] w-fit border border-gray-300">
+    <div className="card bg-base-200/40 w-fit border border-base-300">
       <figure className="p-2 md:p-8">
         <img
           src={imageUrl}

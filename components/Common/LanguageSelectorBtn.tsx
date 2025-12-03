@@ -17,8 +17,8 @@ export default function LanguageSelectorBtn({
   return (
     <button
       className={clsx(
-        "btn  rounded-full",
-        i18n.language == dataLng && "btn-disabled bg-gray-200"
+        "btn rounded-full",
+        i18n.language == dataLng && "btn-disabled bg-base-100",
       )}
       onClick={() => i18n.changeLanguage(dataLng)}
     >
