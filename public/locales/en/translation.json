@@ -4,7 +4,6 @@
     "selectTheme": "Swap the visual theme",
     "themes": {
       "light": "Light",
-      "retro2010": "Retro 2010",
       "dark": "Dark"
     }
   },
@@ -13,7 +12,7 @@
   },
   "heroBanner": {
     "greeting": "Hi, I'm Martin Ribotta",
-    "description": " I'm a frontend developer who is aspiring to be a full stack developer."
+    "description": "I'm a frontend developer who is aspiring to be a full stack developer."
   },
   "aboutMe": {
     "title": "About Me",

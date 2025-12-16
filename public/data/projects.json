@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/projects/portfolio.jpg",
+    "link": "https://personal-portfolio-lilac-nine.vercel.app/",
+    "techs": [
+      {
+        "id": 1,
+        "icon": "/commonIcons/react.svg",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": 2,
+        "icon": "/commonIcons/nextjs.svg",
+        "url": "https://nextjs.org/"
+      },
+      {
+        "id": 3,
+        "icon": "/commonIcons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": 4,
+        "icon": "/commonIcons/tailwindcss.svg",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "id": 5,
+        "icon": "/commonIcons/daisyui.svg",
+        "url": "https://daisyui.com/"
+      },
+      {
+        "id": 6,
+        "icon": "/commonIcons/i18next.svg",
+        "url": "https://www.i18next.com/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "/projects/e-commerce.jpg",
+    "link": "",
+    "techs": [
+      {
+        "id": 1,
+        "icon": "/commonIcons/react.svg",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": 2,
+        "icon": "/commonIcons/daisyui.svg",
+        "url": "https://daisyui.com/"
+      },
+      {
+        "id": 3,
+        "icon": "/commonIcons/nextjs.svg",
+        "url": "https://nextjs.org/"
+      },
+      {
+        "id": 4,
+        "icon": "/commonIcons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": 5,
+        "icon": "/commonIcons/tailwindcss.svg",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "id": 6,
+        "icon": "/commonIcons/mercadopago.svg",
+        "url": "https://www.mercadopago.com/"
+      },
+      {
+        "id": 7,
+        "icon": "/commonIcons/redux.svg",
+        "url": "https://redux.js.org/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "/projects/calcula-carrito.jpg",
+    "link": "",
+    "techs": [
+      {
+        "id": 1,
+        "icon": "/commonIcons/react.svg",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": 2,
+        "icon": "/commonIcons/expo.svg",
+        "url": "https://expo.dev/"
+      },
+      {
+        "id": 3,
+        "icon": "/commonIcons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": 4,
+        "icon": "/commonIcons/nativewind.svg",
+        "url": "https://nativewind.dev/"
+      },
+      {
+        "id": 5,
+        "icon": "/commonIcons/uikitten.png",
+        "url": "https://akveo.github.io/react-native-ui-kitten/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "/projects/landingAudifonos.jpg",
+    "link": "",
+    "techs": [
+      {
+        "id": 1,
+        "icon": "/commonIcons/react.svg",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": 2,
+        "icon": "/commonIcons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": 3,
+        "icon": "/commonIcons/tailwindcss.svg",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "id": 4,
+        "icon": "/commonIcons/nextjs.svg",
+        "url": "https://nextjs.org/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "/projects/turnero.jpg",
+    "link": "",
+    "techs": [
+      {
+        "id": 1,
+        "icon": "/commonIcons/react.svg",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": 2,
+        "icon": "/commonIcons/typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": 3,
+        "icon": "/commonIcons/tailwindcss.svg",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "id": 4,
+        "icon": "/commonIcons/redux.svg",
+        "url": "https://redux.js.org/"
+      },
+      {
+        "id": 5,
+        "icon": "/commonIcons/nextjs.svg",
+        "url": "https://nextjs.org/"
+      }
+    ]
+  }
+]

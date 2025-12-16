@@ -4,7 +4,6 @@
     "selectTheme": "Selecciona un tema visual",
     "themes": {
       "light": "Claro",
-      "retro2010": "Retro 2010",
       "dark": "Oscuro"
     }
   },
@@ -13,7 +12,7 @@
   },
   "heroBanner": {
     "greeting": "Hola, soy Martin Ribotta",
-    "description": " Soy un desarrollador frontend que aspira a ser un desarrollador full stack."
+    "description": "Soy un desarrollador frontend que aspira a ser un desarrollador full stack."
   },
   "aboutMe": {
     "title": "Sobre Mí",

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "HTML5",
+    "icon": "/commonIcons/html5.svg"
+  },
+  {
+    "id": 2,
+    "name": "CSS3",
+    "icon": "/commonIcons/css3.svg"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "icon": "/commonIcons/javascript.svg"
+  },
+  {
+    "id": 4,
+    "name": "ReactJS",
+    "icon": "/commonIcons/react.svg"
+  },
+  {
+    "id": 5,
+    "name": "NextJS",
+    "icon": "/commonIcons/nextjs.svg"
+  },
+  {
+    "id": 6,
+    "name": "Typescript",
+    "icon": "/commonIcons/typescript.svg"
+  },
+  {
+    "id": 7,
+    "name": "TailwindCSS",
+    "icon": "/commonIcons/tailwindcss.svg"
+  },
+  {
+    "id": 8,
+    "name": "Expo",
+    "icon": "/commonIcons/expo.svg"
+  },
+  {
+    "id": 9,
+    "name": "Redux Toolkit",
+    "icon": "/commonIcons/redux.svg"
+  },
+  {
+    "id": 10,
+    "name": "GitHub",
+    "icon": "/commonIcons/github.svg"
+  }
+]
