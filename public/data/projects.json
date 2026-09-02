@@ -1,172 +1,83 @@
 [
   {
     "id": 1,
-    "imageUrl": "/projects/portfolio.jpg",
-    "link": "https://personal-portfolio-lilac-nine.vercel.app/",
+    "title": "Portafolio Personal",
+    "altTitle": "Mi Portafolio",
+    "description": "Un portafolio personal construido con React y Next.js.",
+    "imageUrl": "/images/projects/portfolio.jpg",
+    "links": {
+      "repository": "https://github.com/usuario/portafolio",
+      "live": "https://personal-portfolio-lilac-nine.vercel.app/"
+    },
     "techs": [
-      {
-        "id": 1,
-        "icon": "/commonIcons/react.svg",
-        "url": "https://react.dev/"
-      },
-      {
-        "id": 2,
-        "icon": "/commonIcons/nextjs.svg",
-        "url": "https://nextjs.org/"
-      },
-      {
-        "id": 3,
-        "icon": "/commonIcons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "id": 4,
-        "icon": "/commonIcons/tailwindcss.svg",
-        "url": "https://tailwindcss.com/"
-      },
-      {
-        "id": 5,
-        "icon": "/commonIcons/daisyui.svg",
-        "url": "https://daisyui.com/"
-      },
-      {
-        "id": 6,
-        "icon": "/commonIcons/i18next.svg",
-        "url": "https://www.i18next.com/"
-      }
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "DaisyUI",
+      "i18next"
     ]
   },
   {
     "id": 2,
-    "imageUrl": "/projects/e-commerce.jpg",
-    "link": "",
+    "title": "Full Shop E-commerce",
+    "altTitle": "Tienda en Línea",
+    "description": "Una tienda en línea para varios productos médicos con autenticación de usuarios e integración de pagos.",
+    "imageUrl": "/images/projects/e-commerce.jpg",
+    "links": {
+      "repository": null,
+      "live": null
+    },
     "techs": [
-      {
-        "id": 1,
-        "icon": "/commonIcons/react.svg",
-        "url": "https://react.dev/"
-      },
-      {
-        "id": 2,
-        "icon": "/commonIcons/daisyui.svg",
-        "url": "https://daisyui.com/"
-      },
-      {
-        "id": 3,
-        "icon": "/commonIcons/nextjs.svg",
-        "url": "https://nextjs.org/"
-      },
-      {
-        "id": 4,
-        "icon": "/commonIcons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "id": 5,
-        "icon": "/commonIcons/tailwindcss.svg",
-        "url": "https://tailwindcss.com/"
-      },
-      {
-        "id": 6,
-        "icon": "/commonIcons/mercadopago.svg",
-        "url": "https://www.mercadopago.com/"
-      },
-      {
-        "id": 7,
-        "icon": "/commonIcons/redux.svg",
-        "url": "https://redux.js.org/"
-      }
+      "React",
+      "DaisyUI",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux",
+      "MercadoPago"
     ]
   },
   {
     "id": 3,
-    "imageUrl": "/projects/calcula-carrito.jpg",
-    "link": "",
-    "techs": [
-      {
-        "id": 1,
-        "icon": "/commonIcons/react.svg",
-        "url": "https://react.dev/"
-      },
-      {
-        "id": 2,
-        "icon": "/commonIcons/expo.svg",
-        "url": "https://expo.dev/"
-      },
-      {
-        "id": 3,
-        "icon": "/commonIcons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "id": 4,
-        "icon": "/commonIcons/nativewind.svg",
-        "url": "https://nativewind.dev/"
-      },
-      {
-        "id": 5,
-        "icon": "/commonIcons/uikitten.png",
-        "url": "https://akveo.github.io/react-native-ui-kitten/"
-      }
-    ]
+    "title": "Calcula Carrito",
+    "altTitle": "Calculadora de Carrito",
+    "description": "Una aplicación móvil que permite calcular el total de un carrito de compras, incluyendo impuestos y descuentos.",
+    "imageUrl": "/images/projects/calcula-carrito.jpg",
+    "links": {
+      "repository": null,
+      "live": null
+    },
+    "techs": ["React Native", "Expo", "TypeScript", "NativeWind", "UI Kitten"]
   },
   {
     "id": 4,
-    "imageUrl": "/projects/landingAudifonos.jpg",
-    "link": "",
+    "title": "Gestor de Citas",
+    "altTitle": "Turnero",
+    "description": "Una aplicación web para gestionar citas y turnos de manera eficiente.",
+    "imageUrl": "/images/projects/turnero.jpg",
+    "links": {
+      "repository": null,
+      "live": null
+    },
     "techs": [
-      {
-        "id": 1,
-        "icon": "/commonIcons/react.svg",
-        "url": "https://react.dev/"
-      },
-      {
-        "id": 2,
-        "icon": "/commonIcons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "id": 3,
-        "icon": "/commonIcons/tailwindcss.svg",
-        "url": "https://tailwindcss.com/"
-      },
-      {
-        "id": 4,
-        "icon": "/commonIcons/nextjs.svg",
-        "url": "https://nextjs.org/"
-      }
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Redux"
     ]
   },
   {
     "id": 5,
-    "imageUrl": "/projects/turnero.jpg",
-    "link": "",
-    "techs": [
-      {
-        "id": 1,
-        "icon": "/commonIcons/react.svg",
-        "url": "https://react.dev/"
-      },
-      {
-        "id": 2,
-        "icon": "/commonIcons/typescript.svg",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "id": 3,
-        "icon": "/commonIcons/tailwindcss.svg",
-        "url": "https://tailwindcss.com/"
-      },
-      {
-        "id": 4,
-        "icon": "/commonIcons/redux.svg",
-        "url": "https://redux.js.org/"
-      },
-      {
-        "id": 5,
-        "icon": "/commonIcons/nextjs.svg",
-        "url": "https://nextjs.org/"
-      }
-    ]
+    "title": "Landing Page Audifonos Mendoza",
+    "altTitle": "Audifonos Mendoza",
+    "description": "Una página para promover la venta de audífonos y productos relacionados para la audición en Mendoza.",
+    "imageUrl": "/images/projects/landingAudifonos.jpg",
+    "links": {
+      "repository": null,
+      "live": null
+    },
+    "techs": ["React", "Next.js", "TypeScript", "Tailwind CSS", "DaisyUI"]
   }
 ]

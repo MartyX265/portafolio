@@ -1,11 +1,17 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { Tech } from "./tech.api";
 
-export interface Project{
-    id: number;
-    imageUrl: string;
-    link:string;
-    techs: Tech[];
+export interface Project {
+  id: number;
+  title: string;
+  altTitle: string;
+  description: string;
+  imageUrl: string;
+  links: {
+    repository?: string | null;
+    live?: string | null;
+  };
+  techs: string[];
 }
 
 export const projectApi = createApi({
