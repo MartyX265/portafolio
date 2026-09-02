@@ -6,7 +6,7 @@
     "description": "Un portafolio personal construido con React y Next.js.",
     "imageUrl": "/images/projects/portfolio.jpg",
     "links": {
-      "repository": "https://github.com/usuario/portafolio",
+      "repository": "https://github.com/MartyX265/portafolio",
       "live": "https://personal-portfolio-lilac-nine.vercel.app/"
     },
     "techs": [
